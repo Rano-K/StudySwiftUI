@@ -1,0 +1,415 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F443DC052A809F0D00DF89A4 /* PFinanceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F443DC042A809F0D00DF89A4 /* PFinanceApp.swift */; };
+		F443DC092A809F1000DF89A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F443DC082A809F1000DF89A4 /* Assets.xcassets */; };
+		F443DC0C2A809F1000DF89A4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F443DC0B2A809F1000DF89A4 /* Preview Assets.xcassets */; };
+		F443DC172A809F3A00DF89A4 /* Data+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = F443DC162A809F3A00DF89A4 /* Data+Ext.swift */; };
+		F443DC192A809F4C00DF89A4 /* NumberFormatter+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = F443DC182A809F4C00DF89A4 /* NumberFormatter+Ext.swift */; };
+		F443DC1B2A80A21800DF89A4 /* PaymentFormViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F443DC1A2A80A21800DF89A4 /* PaymentFormViewModel.swift */; };
+		F443DC1D2A80A22F00DF89A4 /* PaymentDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F443DC1C2A80A22F00DF89A4 /* PaymentDetailViewModel.swift */; };
+		F443DC1F2A80A24700DF89A4 /* PaymentActivityModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F443DC1E2A80A24700DF89A4 /* PaymentActivityModel.swift */; };
+		F443DC212A80AE5300DF89A4 /* BlankView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F443DC202A80AE5300DF89A4 /* BlankView.swift */; };
+		F443DC232A80AE9300DF89A4 /* PaymentFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F443DC222A80AE9300DF89A4 /* PaymentFormView.swift */; };
+		F443DC252A80AF1700DF89A4 /* PaymentDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F443DC242A80AF1700DF89A4 /* PaymentDetailView.swift */; };
+		F443DC272A80AF3900DF89A4 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F443DC262A80AF3900DF89A4 /* DashboardView.swift */; };
+		F443DC292A81E19300DF89A4 /* KeyboardAdaptive.swift in Sources */ = {isa = PBXBuildFile; fileRef = F443DC282A81E19300DF89A4 /* KeyboardAdaptive.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F443DC012A809F0D00DF89A4 /* PFinance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PFinance.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F443DC042A809F0D00DF89A4 /* PFinanceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PFinanceApp.swift; sourceTree = "<group>"; };
+		F443DC082A809F1000DF89A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F443DC0B2A809F1000DF89A4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F443DC162A809F3A00DF89A4 /* Data+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+Ext.swift"; sourceTree = "<group>"; };
+		F443DC182A809F4C00DF89A4 /* NumberFormatter+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NumberFormatter+Ext.swift"; sourceTree = "<group>"; };
+		F443DC1A2A80A21800DF89A4 /* PaymentFormViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentFormViewModel.swift; sourceTree = "<group>"; };
+		F443DC1C2A80A22F00DF89A4 /* PaymentDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentDetailViewModel.swift; sourceTree = "<group>"; };
+		F443DC1E2A80A24700DF89A4 /* PaymentActivityModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentActivityModel.swift; sourceTree = "<group>"; };
+		F443DC202A80AE5300DF89A4 /* BlankView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlankView.swift; sourceTree = "<group>"; };
+		F443DC222A80AE9300DF89A4 /* PaymentFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentFormView.swift; sourceTree = "<group>"; };
+		F443DC242A80AF1700DF89A4 /* PaymentDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentDetailView.swift; sourceTree = "<group>"; };
+		F443DC262A80AF3900DF89A4 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		F443DC282A81E19300DF89A4 /* KeyboardAdaptive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardAdaptive.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F443DBFE2A809F0D00DF89A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F443DBF82A809F0D00DF89A4 = {
+			isa = PBXGroup;
+			children = (
+				F443DC032A809F0D00DF89A4 /* PFinance */,
+				F443DC022A809F0D00DF89A4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F443DC022A809F0D00DF89A4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F443DC012A809F0D00DF89A4 /* PFinance.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F443DC032A809F0D00DF89A4 /* PFinance */ = {
+			isa = PBXGroup;
+			children = (
+				F443DC152A809F2700DF89A4 /* Extension */,
+				F443DC142A809F2300DF89A4 /* Model */,
+				F443DC132A809F1F00DF89A4 /* View */,
+				F443DC122A809F1A00DF89A4 /* ViewModel */,
+				F443DC042A809F0D00DF89A4 /* PFinanceApp.swift */,
+				F443DC082A809F1000DF89A4 /* Assets.xcassets */,
+				F443DC0A2A809F1000DF89A4 /* Preview Content */,
+			);
+			path = PFinance;
+			sourceTree = "<group>";
+		};
+		F443DC0A2A809F1000DF89A4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F443DC0B2A809F1000DF89A4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F443DC122A809F1A00DF89A4 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F443DC1A2A80A21800DF89A4 /* PaymentFormViewModel.swift */,
+				F443DC1C2A80A22F00DF89A4 /* PaymentDetailViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F443DC132A809F1F00DF89A4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F443DC202A80AE5300DF89A4 /* BlankView.swift */,
+				F443DC222A80AE9300DF89A4 /* PaymentFormView.swift */,
+				F443DC242A80AF1700DF89A4 /* PaymentDetailView.swift */,
+				F443DC262A80AF3900DF89A4 /* DashboardView.swift */,
+				F443DC282A81E19300DF89A4 /* KeyboardAdaptive.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F443DC142A809F2300DF89A4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F443DC1E2A80A24700DF89A4 /* PaymentActivityModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F443DC152A809F2700DF89A4 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				F443DC162A809F3A00DF89A4 /* Data+Ext.swift */,
+				F443DC182A809F4C00DF89A4 /* NumberFormatter+Ext.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F443DC002A809F0D00DF89A4 /* PFinance */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F443DC0F2A809F1000DF89A4 /* Build configuration list for PBXNativeTarget "PFinance" */;
+			buildPhases = (
+				F443DBFD2A809F0D00DF89A4 /* Sources */,
+				F443DBFE2A809F0D00DF89A4 /* Frameworks */,
+				F443DBFF2A809F0D00DF89A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PFinance;
+			productName = PFinance;
+			productReference = F443DC012A809F0D00DF89A4 /* PFinance.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F443DBF92A809F0D00DF89A4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					F443DC002A809F0D00DF89A4 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = F443DBFC2A809F0D00DF89A4 /* Build configuration list for PBXProject "PFinance" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F443DBF82A809F0D00DF89A4;
+			productRefGroup = F443DC022A809F0D00DF89A4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F443DC002A809F0D00DF89A4 /* PFinance */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F443DBFF2A809F0D00DF89A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F443DC0C2A809F1000DF89A4 /* Preview Assets.xcassets in Resources */,
+				F443DC092A809F1000DF89A4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F443DBFD2A809F0D00DF89A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F443DC232A80AE9300DF89A4 /* PaymentFormView.swift in Sources */,
+				F443DC172A809F3A00DF89A4 /* Data+Ext.swift in Sources */,
+				F443DC292A81E19300DF89A4 /* KeyboardAdaptive.swift in Sources */,
+				F443DC252A80AF1700DF89A4 /* PaymentDetailView.swift in Sources */,
+				F443DC192A809F4C00DF89A4 /* NumberFormatter+Ext.swift in Sources */,
+				F443DC1D2A80A22F00DF89A4 /* PaymentDetailViewModel.swift in Sources */,
+				F443DC1B2A80A21800DF89A4 /* PaymentFormViewModel.swift in Sources */,
+				F443DC272A80AF3900DF89A4 /* DashboardView.swift in Sources */,
+				F443DC1F2A80A24700DF89A4 /* PaymentActivityModel.swift in Sources */,
+				F443DC212A80AE5300DF89A4 /* BlankView.swift in Sources */,
+				F443DC052A809F0D00DF89A4 /* PFinanceApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F443DC0D2A809F1000DF89A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F443DC0E2A809F1000DF89A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F443DC102A809F1000DF89A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PFinance/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.appcoda.PFinance;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F443DC112A809F1000DF89A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PFinance/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.appcoda.PFinance;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F443DBFC2A809F0D00DF89A4 /* Build configuration list for PBXProject "PFinance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F443DC0D2A809F1000DF89A4 /* Debug */,
+				F443DC0E2A809F1000DF89A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F443DC0F2A809F1000DF89A4 /* Build configuration list for PBXNativeTarget "PFinance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F443DC102A809F1000DF89A4 /* Debug */,
+				F443DC112A809F1000DF89A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F443DBF92A809F0D00DF89A4 /* Project object */;
+}
