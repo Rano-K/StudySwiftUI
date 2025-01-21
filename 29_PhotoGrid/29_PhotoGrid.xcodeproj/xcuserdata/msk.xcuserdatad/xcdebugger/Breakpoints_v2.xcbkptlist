@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "0236CAC6-FCF0-4806-8DCF-64668EA57AE6"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3EB4F2C9-7285-427D-8D87-0A16572097B0"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "29_PhotoGrid/CafeModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  uuid = "3EB4F2C9-7285-427D-8D87-0A16572097B0 - 4e55d2a1d213e9d5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; Swift.Array&lt;_9_PhotoGrid.Cafe&gt; in variable initialization expression of _9_PhotoGrid.sampleCafes : Swift.Array&lt;_9_PhotoGrid.Cafe&gt;"
+                  moduleName = "29_PhotoGrid.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/msk/project/MasteringSwiftUI/SwiftUI(Learn)/29_PhotoGrid/29_PhotoGrid/CafeModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22">
+               </Location>
+               <Location
+                  uuid = "3EB4F2C9-7285-427D-8D87-0A16572097B0 - 738192463648c4ca"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Swift.Int) -&gt; _9_PhotoGrid.PhotoModel in closure #1 () -&gt; Swift.Array&lt;_9_PhotoGrid.Cafe&gt; in variable initialization expression of _9_PhotoGrid.sampleCafes : Swift.Array&lt;_9_PhotoGrid.Cafe&gt;"
+                  moduleName = "29_PhotoGrid.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/msk/project/MasteringSwiftUI/SwiftUI(Learn)/29_PhotoGrid/29_PhotoGrid/CafeModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
